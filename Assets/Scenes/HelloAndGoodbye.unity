@@ -175,7 +175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 1401982747}
-  speed: 0.1
+  speed: 0.2
   fontArray:
   - {fileID: 12800000, guid: 566c5b39c2699a147aa74e87ca610ff4, type: 3}
   - {fileID: 12800000, guid: 11db4d9716342d040a7b58ba3044d0f6, type: 3}
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 1401982747}
-  speed: 0.5
+  speed: 0.4
   fontArray:
   - {fileID: 12800000, guid: 4f12d220b8481fa4fa13c87aebcbc3f6, type: 3}
   - {fileID: 12800000, guid: 45c5b6a11c7fd404f941a04a379d96e4, type: 3}
@@ -670,6 +670,7 @@ RectTransform:
   - {fileID: 1479036625}
   - {fileID: 673709558}
   - {fileID: 551151448}
+  - {fileID: 1793972654}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -771,7 +772,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 1401982747}
-  speed: 0.8
+  speed: 0.6
   fontArray:
   - {fileID: 12800000, guid: b99b7337c122de14e98a1afa46dbb47b, type: 3}
   - {fileID: 12800000, guid: 057cce253001b1847b7a1053ff970c60, type: 3}
@@ -780,3 +781,106 @@ MonoBehaviour:
   - Hello
   - HELLO
   - hello
+--- !u!1 &1793972653
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1793972654}
+  - component: {fileID: 1793972657}
+  - component: {fileID: 1793972656}
+  - component: {fileID: 1793972655}
+  m_Layer: 5
+  m_Name: FarewellText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1793972654
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793972653}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1401982748}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1312, y: -71}
+  m_SizeDelta: {x: 629.4409, y: 245.20538}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1793972655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793972653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1854162d03ac77f4fa58c6798d79fbf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textCanvas: {fileID: 1401982747}
+  speed: 0.1
+  fontArray:
+  - {fileID: 12800000, guid: 1e99e0ad2ef41254384136a742bb2811, type: 3}
+  - {fileID: 12800000, guid: 976c332487f231d49a4b26018e617cf3, type: 3}
+  - {fileID: 12800000, guid: 998f269dbaf905c46bb4ac6a517d2619, type: 3}
+  - {fileID: 12800000, guid: 914f01da48e5de945a7af028682beeba, type: 3}
+  textArray:
+  - Farewell
+  - FAREWELL
+  - farewell
+--- !u!114 &1793972656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793972653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 1e99e0ad2ef41254384136a742bb2811, type: 3}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Farewell
+--- !u!222 &1793972657
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793972653}
+  m_CullTransparentMesh: 0
