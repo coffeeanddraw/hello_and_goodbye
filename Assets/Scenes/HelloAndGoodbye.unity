@@ -906,7 +906,7 @@ GameObject:
   - component: {fileID: 1516925934}
   - component: {fileID: 1516925933}
   m_Layer: 5
-  m_Name: 
+  m_Name: GoodNightText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -928,7 +928,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -329, y: -369}
+  m_AnchoredPosition: {x: 358, y: -547}
   m_SizeDelta: {x: 1078.4188, y: 245.20538}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1516925933
@@ -944,22 +944,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 1401982747}
-  speed: 0.08
+  speed: 0.06
   fontArray:
-  - {fileID: 12800000, guid: 78fb1822c41def34d85876f6670dcbe4, type: 3}
-  - {fileID: 12800000, guid: 8240eb364d084a143bd8de4f79271636, type: 3}
-  - {fileID: 12800000, guid: adaca0223af4b6144a101202cd20f5e3, type: 3}
-  - {fileID: 12800000, guid: a59519277091dd342be1627883a09d4e, type: 3}
-  - {fileID: 12800000, guid: 9abb3fe0ea953ff4d8c0b6a40c80a87c, type: 3}
-  - {fileID: 12800000, guid: ec8b9647207a9b241a6210c50a23bc7e, type: 3}
-  - {fileID: 12800000, guid: 5b29ab6dd7faab345b570a7c8743767f, type: 3}
-  - {fileID: 12800000, guid: c5c308b2ca9bd4940b645647cd3c68cd, type: 3}
-  - {fileID: 12800000, guid: 84fe447fceedbee4ea8c9ef4181559f0, type: 3}
-  - {fileID: 12800000, guid: af3a047eda3e7c5449f3d8f758a00170, type: 3}
+  - {fileID: 12800000, guid: 321acef1510a57f4490af0f328e71c0f, type: 3}
+  - {fileID: 12800000, guid: 3405fc2a086d605498a2e3802a4e33b4, type: 3}
+  - {fileID: 12800000, guid: dff6aadaa0457a744a7a59c8e200c0e6, type: 3}
+  - {fileID: 12800000, guid: e16715ca5f0fa634e95316306d13d8a5, type: 3}
+  - {fileID: 12800000, guid: e16715ca5f0fa634e95316306d13d8a5, type: 3}
+  - {fileID: 12800000, guid: a896691b71e92ce4fa51d4e87e95d3be, type: 3}
   textArray:
-  - So long
-  - SO LONG
-  - So Long
+  - Good night
+  - GOOD NIGHT
+  - Good Night
 --- !u!114 &1516925934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -973,7 +969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.5, b: 0.2815789, a: 1}
+  m_Color: {r: 0.32300568, g: 0, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -981,7 +977,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 78fb1822c41def34d85876f6670dcbe4, type: 3}
+    m_Font: {fileID: 12800000, guid: 321acef1510a57f4490af0f328e71c0f, type: 3}
     m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
@@ -993,7 +989,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: So long
+  m_Text: Good night
 --- !u!222 &1516925935
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1076,7 +1072,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0.9425912, a: 1}
+  m_Color: {r: 1, g: 0.3915094, b: 0.63707227, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
