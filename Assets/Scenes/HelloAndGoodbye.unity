@@ -175,7 +175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 1401982747}
-  speed: 0.05
+  speed: 0.04
   fontArray:
   - {fileID: 12800000, guid: 9cb6bb178ce63224aa0ea96e3f08220b, type: 3}
   - {fileID: 12800000, guid: c2e49e1f95550d546ab1cadbca3e3fcd, type: 3}
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 1401982747}
-  speed: 0.02
+  speed: 0.01
   fontArray:
   - {fileID: 12800000, guid: ddd029f42d89aa947ad90e80cf33db4f, type: 3}
   - {fileID: 12800000, guid: 6f1e24d06f63c764e908d686c0fa2f8c, type: 3}
@@ -376,7 +376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 1401982747}
-  speed: 0.2
+  speed: 0.1
   fontArray:
   - {fileID: 12800000, guid: 566c5b39c2699a147aa74e87ca610ff4, type: 3}
   - {fileID: 12800000, guid: 11db4d9716342d040a7b58ba3044d0f6, type: 3}
@@ -479,7 +479,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 1401982747}
-  speed: 0.08
+  speed: 0.07
   fontArray:
   - {fileID: 12800000, guid: 78fb1822c41def34d85876f6670dcbe4, type: 3}
   - {fileID: 12800000, guid: 8240eb364d084a143bd8de4f79271636, type: 3}
@@ -588,7 +588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 1401982747}
-  speed: 0.3
+  speed: 0.2
   fontArray:
   - {fileID: 12800000, guid: 4f12d220b8481fa4fa13c87aebcbc3f6, type: 3}
   - {fileID: 12800000, guid: 45c5b6a11c7fd404f941a04a379d96e4, type: 3}
@@ -886,7 +886,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 1401982747}
-  speed: 0.03
+  speed: 0.02
   fontArray:
   - {fileID: 12800000, guid: 04d1c2b174b656248bd3fc5be0e6be0e, type: 3}
   - {fileID: 12800000, guid: 26b3b0d3807346a408aa9336b7ec0d21, type: 3}
@@ -1108,6 +1108,7 @@ RectTransform:
   - {fileID: 1521724405}
   - {fileID: 979562803}
   - {fileID: 396007595}
+  - {fileID: 1724102293}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1209,7 +1210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 1401982747}
-  speed: 0.4
+  speed: 0.3
   fontArray:
   - {fileID: 12800000, guid: b99b7337c122de14e98a1afa46dbb47b, type: 3}
   - {fileID: 12800000, guid: 057cce253001b1847b7a1053ff970c60, type: 3}
@@ -1269,7 +1270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 1401982747}
-  speed: 0.07
+  speed: 0.06
   fontArray:
   - {fileID: 12800000, guid: 321acef1510a57f4490af0f328e71c0f, type: 3}
   - {fileID: 12800000, guid: 3405fc2a086d605498a2e3802a4e33b4, type: 3}
@@ -1374,7 +1375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 1401982747}
-  speed: 0.04
+  speed: 0.03
   fontArray:
   - {fileID: 12800000, guid: da532e47f30057b47b254aee50c245e9, type: 3}
   - {fileID: 12800000, guid: 90c040724cb873945b2305e3b6f7999b, type: 3}
@@ -1423,6 +1424,108 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1521724404}
+  m_CullTransparentMesh: 0
+--- !u!1 &1724102292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1724102293}
+  - component: {fileID: 1724102296}
+  - component: {fileID: 1724102295}
+  - component: {fileID: 1724102294}
+  m_Layer: 5
+  m_Name: SeeYaText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1724102293
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724102292}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1401982748}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1146, y: -431}
+  m_SizeDelta: {x: 1078.4188, y: 245.20538}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1724102294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724102292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1854162d03ac77f4fa58c6798d79fbf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textCanvas: {fileID: 1401982747}
+  speed: 0.005
+  fontArray:
+  - {fileID: 12800000, guid: 44b2391b0fc3c1d4f9ca497701899a25, type: 3}
+  - {fileID: 12800000, guid: e44d30ccd8910814e91ccddcbd0a45a1, type: 3}
+  - {fileID: 12800000, guid: 043dd09a56b75764cb6fb1ec87f6689b, type: 3}
+  textArray:
+  - See ya
+  - SEE YA
+  - see ya
+--- !u!114 &1724102295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724102292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0.2924528, b: 0.14462236, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 44b2391b0fc3c1d4f9ca497701899a25, type: 3}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'See ya '
+--- !u!222 &1724102296
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724102292}
   m_CullTransparentMesh: 0
 --- !u!1 &1793972653
 GameObject:
@@ -1475,7 +1578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 1401982747}
-  speed: 0.1
+  speed: 0.09
   fontArray:
   - {fileID: 12800000, guid: 1e99e0ad2ef41254384136a742bb2811, type: 3}
   - {fileID: 12800000, guid: 976c332487f231d49a4b26018e617cf3, type: 3}
@@ -1578,7 +1681,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 1401982747}
-  speed: 0.06
+  speed: 0.05
   fontArray:
   - {fileID: 12800000, guid: 51e0961be0257004693bc16fe39a0e6d, type: 3}
   - {fileID: 12800000, guid: b6d07afcc36ecae499ac687a969c4ffc, type: 3}
@@ -1679,7 +1782,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 1401982747}
-  speed: 0.09
+  speed: 0.08
   fontArray:
   - {fileID: 12800000, guid: e014f50086a36604fa980f6cfd316a45, type: 3}
   - {fileID: 12800000, guid: 06f33bd56c720ec4498928bff157e6d4, type: 3}
