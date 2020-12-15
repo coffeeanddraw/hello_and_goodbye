@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bf57f1c804898594da60dd26eae9669b
+guid: 8240eb364d084a143bd8de4f79271636
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Share Tech Mono
+  - Cormorant Infant
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
