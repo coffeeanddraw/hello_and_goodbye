@@ -47,7 +47,7 @@ public class ChangFont : MonoBehaviour
     {
         randFontIndex = Random.Range(0, fontArray.Length);
         randTextIndex = Random.Range(0, textArray.Length);
-        randFontSize = Random.Range(40, 80);
+        randFontSize = Random.Range(40, 100);
         Debug.Log("random index is " + randFontIndex);
         yield return new WaitForSeconds(wait);
         thisText.fontSize = randFontSize;
