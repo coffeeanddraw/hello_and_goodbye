@@ -671,6 +671,7 @@ RectTransform:
   - {fileID: 673709558}
   - {fileID: 551151448}
   - {fileID: 1793972654}
+  - {fileID: 1804010012}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -883,4 +884,109 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793972653}
+  m_CullTransparentMesh: 0
+--- !u!1 &1804010011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1804010012}
+  - component: {fileID: 1804010015}
+  - component: {fileID: 1804010014}
+  - component: {fileID: 1804010013}
+  m_Layer: 5
+  m_Name: GoodmorningText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1804010012
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804010011}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1401982748}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: -44, y: -751}
+  m_SizeDelta: {x: 629.4409, y: 245.20538}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1804010013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804010011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1854162d03ac77f4fa58c6798d79fbf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textCanvas: {fileID: 1401982747}
+  speed: 0.1
+  fontArray:
+  - {fileID: 12800000, guid: e014f50086a36604fa980f6cfd316a45, type: 3}
+  - {fileID: 12800000, guid: 06f33bd56c720ec4498928bff157e6d4, type: 3}
+  - {fileID: 12800000, guid: 4d7bab3cf24bbf44bbccfe67d4814d72, type: 3}
+  - {fileID: 12800000, guid: 2f399650f74785a4a870c1b5b0d088b5, type: 3}
+  - {fileID: 12800000, guid: 89712ae9a82468342aa50d14a3fa3f89, type: 3}
+  - {fileID: 12800000, guid: ff3e41970e07b994abd773ea17faf6c9, type: 3}
+  textArray:
+  - Good morning
+  - GOOD MORNING
+  - Good Morning
+--- !u!114 &1804010014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804010011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 1e99e0ad2ef41254384136a742bb2811, type: 3}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Good morning
+--- !u!222 &1804010015
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804010011}
   m_CullTransparentMesh: 0
