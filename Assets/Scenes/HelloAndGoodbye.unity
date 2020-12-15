@@ -278,7 +278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 1401982747}
-  speed: 0.08
+  speed: 0.06
   fontArray:
   - {fileID: 12800000, guid: 78fb1822c41def34d85876f6670dcbe4, type: 3}
   - {fileID: 12800000, guid: 8240eb364d084a143bd8de4f79271636, type: 3}
@@ -783,6 +783,7 @@ RectTransform:
   - {fileID: 1804010012}
   - {fileID: 628976764}
   - {fileID: 1516925932}
+  - {fileID: 1797403981}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -944,7 +945,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 1401982747}
-  speed: 0.06
+  speed: 0.04
   fontArray:
   - {fileID: 12800000, guid: 321acef1510a57f4490af0f328e71c0f, type: 3}
   - {fileID: 12800000, guid: 3405fc2a086d605498a2e3802a4e33b4, type: 3}
@@ -1049,7 +1050,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 1401982747}
-  speed: 0.2
+  speed: 0.1
   fontArray:
   - {fileID: 12800000, guid: 1e99e0ad2ef41254384136a742bb2811, type: 3}
   - {fileID: 12800000, guid: 976c332487f231d49a4b26018e617cf3, type: 3}
@@ -1100,6 +1101,107 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1793972653}
+  m_CullTransparentMesh: 0
+--- !u!1 &1797403980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1797403981}
+  - component: {fileID: 1797403984}
+  - component: {fileID: 1797403983}
+  - component: {fileID: 1797403982}
+  m_Layer: 5
+  m_Name: SeeYouLaterText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1797403981
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797403980}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1401982748}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 786, y: -345}
+  m_SizeDelta: {x: 1078.4188, y: 245.20538}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &1797403982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797403980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1854162d03ac77f4fa58c6798d79fbf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textCanvas: {fileID: 1401982747}
+  speed: 0.02
+  fontArray:
+  - {fileID: 12800000, guid: 51e0961be0257004693bc16fe39a0e6d, type: 3}
+  - {fileID: 12800000, guid: b6d07afcc36ecae499ac687a969c4ffc, type: 3}
+  textArray:
+  - See you later
+  - SEE YOU LATER
+  - See You Later
+--- !u!114 &1797403983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797403980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0.48456877, b: 0.754717, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 51e0961be0257004693bc16fe39a0e6d, type: 3}
+    m_FontSize: 40
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 3
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: See you later
+--- !u!222 &1797403984
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797403980}
   m_CullTransparentMesh: 0
 --- !u!1 &1804010011
 GameObject:
@@ -1152,7 +1254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textCanvas: {fileID: 1401982747}
-  speed: 0.1
+  speed: 0.08
   fontArray:
   - {fileID: 12800000, guid: e014f50086a36604fa980f6cfd316a45, type: 3}
   - {fileID: 12800000, guid: 06f33bd56c720ec4498928bff157e6d4, type: 3}
